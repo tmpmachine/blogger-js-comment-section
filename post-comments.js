@@ -3,7 +3,10 @@
     let $ = document.querySelector.bind(document);
     let $$ = document.querySelectorAll.bind(document);
 
-    await wait.Until(() => $('._isTemplateRendered'))
+    // custom utility for development
+    if (typeof(wait?.Until) !== 'undefined') {
+        await wait.Until(() => $('._isTemplateRendered'))
+    }
 
     const dataBlogId = $('._dataBlogId')?.textContent;
     const dataPostId = $('._dataPostId')?.textContent;
