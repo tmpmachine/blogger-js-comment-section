@@ -8,7 +8,16 @@ Tech:
 Requirements:
 - Blogger API key
 
-How-to:
+## How-To
+
+Note: Implementation may vary.
+
+Create a container for the comments:
+```html
+<div class="_comments"></div>
+```
+
+Then load the script after.
 
 Update the following line with your API key:
 ```js
