@@ -1,6 +1,8 @@
 # blogger-js-comment-section
 
-This loads Blogger post comments.
+This loads Blogger post comments. Clicking the Reply button on each comment will show an embedded comment from to reply.
+
+![Blogger threaded comments displayed using JavaScript](https://blogger.googleusercontent.com/img/a/AVvXsEjo3BNobLlVu99pj9dHaxotsWSZWJRYYFvgy6cTXgOoZBfAivLla5fNibFcUk97xC7sUH80LPQiFTwuxxxCb_eElWLGVmd-vqgOY_CVlV43hLvW2JDOu3UDp97Pv8KSm9IY_ha9ODmeX15828LR4uNew3MSKJq-Cd4aUbcwRhjlCZENgVqdLdgtJ_6m-WbI)
 
 Tech:
 - Blogger API v3
